@@ -6,6 +6,13 @@ header {
     align-items: center;
     margin: auto;
     margin-top: 50px;
+    padding: 10px;
     color: black;
     border: solid;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: space-between;
+    
 }

@@ -1,5 +1,8 @@
 <header>
     <h1> {{ title }} </h1>
-    <app-buttons color="grey" text="Add" (btnClick)="toggleAddTask()"></app-buttons>
+    <div class="btn-container">
+        <app-buttons class="btn" color="grey" text="Add" (btnClick)="toggleAddTask()"></app-buttons>
+        <app-buttons class="btn" color="grey" text="Delete" (btnClick)="toggleDeleteTask()"></app-buttons>
+    </div>
     <app-tasks></app-tasks>
 </header>

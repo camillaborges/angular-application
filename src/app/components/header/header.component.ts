@@ -13,7 +13,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
 
   toggleAddTask() {
-    alert('Toggle')
+    alert('Add')
+  }
+
+  toggleDeleteTask() {
+    alert('Deleted')
   }
 
 }
