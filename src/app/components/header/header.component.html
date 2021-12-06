@@ -1,7 +1,9 @@
 <header>
     <h1> {{ title }} </h1>
     <div class="btn-container">
-        <app-buttons class="btn" color="grey" text="Add" (btnClick)="toggleAddTask()"></app-buttons>
+        <app-buttons color="{{showAddTask ? 'grey' : 'green'}}" 
+        text="{{showAddTask ? 'Close' : 'Add'}}" 
+        (btnClick)="toggleAddTask()"></app-buttons>
     </div>
     <app-tasks></app-tasks>
 </header>

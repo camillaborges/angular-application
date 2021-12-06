@@ -2,8 +2,6 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     margin: auto;
     margin-top: 50px;
     padding: 10px;
@@ -11,8 +9,4 @@ header {
     border: solid;
 }
 
-.btn {
-    display: inline-flex;
-    justify-content: space-between;
-    
-}
+
