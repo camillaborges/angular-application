@@ -10,7 +10,7 @@
       "id": 2,
       "text": "Food Shopping",
       "day": "February 15th at 11:30am",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "id": 4,
       "text": "Gym",
       "day": "April 20th at 07:30am",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,

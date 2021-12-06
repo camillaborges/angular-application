@@ -16,8 +16,4 @@ export class HeaderComponent implements OnInit {
     alert('Add')
   }
 
-  toggleDeleteTask() {
-    alert('Deleted')
-  }
-
 }
