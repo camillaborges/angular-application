@@ -2,11 +2,21 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 50px;
+    margin: 30px auto 30px auto;
     padding: 10px;
     color: black;
     border: solid;
 }
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+
 
 

@@ -7,7 +7,13 @@ input {
 }
 
 .btn {
-    background-color: rgb(177, 171, 171);
+    background-color: rgb(3, 61, 6);
     color: rgb(241, 234, 234);
-    margin: auto;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    display: flex;
+    position: relative;
+    left: 430px;
 }
+
+
